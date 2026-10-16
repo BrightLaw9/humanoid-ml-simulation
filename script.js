@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-time]').forEach(button => { button.addEventListener('click', () => { const video = document.getElementById('recovery'); video.currentTime = Number(button.dataset.time); video.play().catch(() => {}); }); });

@@ -1,0 +1,39 @@
+{
+  "checkpoint_step": 222000,
+  "fresh_seed_start": 14000,
+  "temporal_ensemble": false,
+  "expert_takeover": false,
+  "fps": 25,
+  "rows": [
+    {
+      "condition": "full",
+      "execute_25": "16/20",
+      "execute_50": "17/20"
+    },
+    {
+      "condition": "aligned",
+      "execute_25": "7/10",
+      "execute_50": "8/10"
+    },
+    {
+      "condition": "offset_positive",
+      "execute_25": "6/10",
+      "execute_50": "8/10"
+    },
+    {
+      "condition": "offset_negative",
+      "execute_25": "5/10",
+      "execute_50": "8/10"
+    },
+    {
+      "condition": "tilt_positive",
+      "execute_25": "7/10",
+      "execute_50": "8/10"
+    },
+    {
+      "condition": "tilt_negative",
+      "execute_25": "7/10",
+      "execute_50": "8/10"
+    }
+  ]
+}
